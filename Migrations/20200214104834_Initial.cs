@@ -28,7 +28,7 @@ namespace Blog.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "BlogPost");
+                name: "BlogPost"); 
         }
     }
 }

@@ -24,6 +24,7 @@ namespace Blog.Controllers
             _repo = repo;
         }
 
+        //Test
         // GET: api/BlogPosts
         [HttpGet]
         public IEnumerable<BlogPost> GetBlogPosts()
